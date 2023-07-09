@@ -1,0 +1,169 @@
+body{
+    width: 1440px;
+}
+
+/*overall reuslts div */
+
+.ovlresults{
+    width: 350px;
+    height: 450px;
+    background-image: 
+    linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 30px;
+    position: relative;
+    top: 70px;
+    left: 450px;
+}
+
+div h2{
+    padding-left: 115px;
+    padding-top: 40px;
+    color: #fff;
+    opacity: 65%;
+}
+
+div .p1{
+    width: 170px;
+    height: 130px;
+    text-align: center;
+    padding-top: 40px;
+    position: relative;
+    left: 27%;
+    bottom: 40px;
+    font-size: 70px;
+    color: #fff;
+    background-image: 
+    linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius: 100%;
+}
+
+div .p2{
+    font-size: 18px;
+    position: relative;
+    left: 156px;
+    bottom: 165px;
+    color: #fff;
+    opacity: 65%;
+}
+
+div .p3{
+    font-size: 35px;
+    position: relative;
+    left: 140px;
+    bottom: 145px;
+    color: #fff;
+}
+
+div .p4{
+    width: 300px;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    left: 30px;
+    bottom: 160px;
+    color: #fff;
+    opacity: 65%;
+}
+
+/*The netrual section*/
+
+@font-face { font-family: “MyFont”; src: url("G:\Front-end\For Me\My Projects\Solution\assets\fonts\HankenGrotesk-VariableFont_wght.ttf") format(“truetype”); }
+
+section{
+    width: 350px;
+    height: 450px;
+    position: relative;
+    left: 800px;
+    bottom: 400px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 20px 20px 20px 0 hsl(252, 100%, 67%,10%);
+}
+
+section h2{
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+section p{
+    width: 220px;
+    height: 30px;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-family: MyFont;
+    border-radius: 10px;
+    position: relative;
+    top: 40px;
+    left: 30px;
+    margin-top: -25px;
+}
+
+
+section .p1{
+    color: hsl(0, 90%, 47%);
+    background-color: hsl(0, 100%, 67%,10%);
+}
+
+section .p2{
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 56%,10%);
+}
+
+section .p3{
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 37%,10%);
+}
+
+section .p4{
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 45%,10%);
+}
+
+img{
+    width: 20px;
+    height: 20px;
+}
+
+.img1,.img2,.img3,.img4{
+    position: relative;
+    right: 10px;
+    bottom: 13px;
+}
+
+.b1,.b2,.b3,.b4{
+    font-size: 18px;
+    position: relative;
+    left: 210px;
+    bottom: 15px;
+    height: 20px;
+}
+
+#b1,#b2,#b3,#b4{
+    font-size: 18px;
+    position: relative;
+    left: 220px;
+    bottom: 15px;
+    height: 20px;
+    opacity: 65%;
+}
+
+button{
+    position: relative;
+    top: 60px;
+    right: 30px;
+    width: 250px;
+    height: 50px;
+    margin: -10px;
+    font-size: 16px;
+    border: 1px solid hsl(234, 85%, 20%);
+    border-radius: 30px;
+    color: #fff;
+    background-color: hsl(234, 85%, 20%);;
+}
+
+button:hover{
+    background-color:hsl(234, 85%, 45%) ;
+}
